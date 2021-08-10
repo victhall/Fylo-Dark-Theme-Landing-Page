@@ -1,0 +1,475 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+box-sizing: border-box;
+background-color: hsl(218, 28%, 13%);
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+
+
+   text-align: center;
+   background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 900%;
+    background-position: -280px 250px;
+}
+header {
+display: flex;
+justify-content: space-between;
+padding: 40px 30px 0px;
+}
+.navbar li {
+display: inline-block;
+font-size: 13px;
+position: relative;
+top: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#logo-1 {
+    height: auto;
+    width: 100px;
+cursor: pointer;
+}
+.nav1 {
+    padding: 30px 20px 0px 0px;
+}
+.nav2 {
+    padding: 30px 20px 0px 0px;
+}
+.nav3 {
+    padding: 30px 0px 0px 0px;
+
+}
+#p1img {
+    height: auto;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+#p6img {
+    height: auto;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.get-started {
+    border: 1px solid hsl(176, 68%, 64%);
+    background-color: hsl(176, 68%, 64%);
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 15px 60px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.email-input {
+    border-radius: 25px;
+    padding: 15px 60px;
+    border: none;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    justify-items: center;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+.panel-1 {
+    margin: 30px 30px 100px 30px;
+
+
+}
+
+.panel-1 p {
+    line-height: 1.5;
+}
+.icons {
+    margin: 35px 0px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.main-text {
+    margin: 0px 30px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.main-text1 {
+    text-align: left;
+    margin: 5px 30px 20px 30px;
+}
+.main-text2 {
+    text-align: left;
+    margin: 5px 30px 20px 30px;
+}
+#h2l {
+    font-size: 18.5px;
+}
+#fylo-link {
+    background-color: transparent;
+    color: hsl(176, 68%, 64%);
+    border: 1px solid transparent;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding: 0px 0px 8px;
+    margin-bottom: 50px;
+
+}
+.see-how {
+    text-align: left;
+    margin: 5px 30px 20px 30px;
+}
+.test {
+
+        background-color: hsl(218, 28%, 13%);
+
+}
+.testp1 {
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 20px;
+    margin: 0px 35px 20px;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.test2 {
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 20px;
+    margin: 0px 35px 20px;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+.test3 {
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 20px;
+    margin: 0px 35px 20px;
+    border-radius: 8px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.qimg {
+        height: auto;
+        width: 50px;
+        border-radius: 50%;
+       position: relative;
+       top: 5px;
+       left: -5px;
+    }
+.profile {
+    display: inline-block;
+    margin-left: 15px;
+}
+#bg-quote {
+
+    height: auto;
+    width: 40px;
+float: left;
+position: relative;
+left: 50px;
+bottom: 20px;
+}
+.bio {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.main-text3 {
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.panel-2 {
+    background-color: hsl(218, 28%, 13%)
+
+}
+.footmnu {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footmnu li {
+    margin: 15px;
+}
+.foot2 {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.foot1 {
+    margin-top: 60px;
+}
+.menu {
+    text-align: left;
+    margin: 30px;
+}
+.location {
+    margin-top: 30px;
+}
+.phone {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 0px 30px 20px;
+}
+.email {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 0px 30px ;
+}
+.fmnu {
+    margin-left: 15px;
+}
+.fmnu2 {
+    position: relative;
+    left: 35px;
+    bottom: 20px;
+}
+.panel-7 {
+    background-color: hsl(217, 28%, 15%);
+    margin: 0px 15px;
+    padding: 60px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    position: relative;
+    top: 200px;
+}
+footer {
+    background-color: hsl(216, 53%, 9%);
+
+}
+#logo-2 {
+    margin-top: 270px;
+    margin-bottom: 40px;
+}
+.get-started:hover {
+    background-color: rgb(156, 245, 245);
+    cursor: pointer;
+    }
+    #fylo-link:hover {
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    
+    @media (min-width: 900px) {
+        #p1img {
+            height: auto;
+            width: 600px;
+            margin-top: 40px;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 40px;
+        width: 800px;
+        justify-items: center;
+        line-height: 50px;
+    }
+      .panel-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          padding: 20px 50px 50px;
+          margin: 0px 50px;  
+         
+        }
+    #headp {
+        font-size: 20px;
+        width: 600px;
+    }
+    body {
+        background-image: url(images/bg-curvy-desktop.svg);
+      background-size: 100%;
+    background-position: 0px 650px;    
+    background-color: hsl(217, 28%, 15%);
+
+    }
+    .get-started {
+        margin-bottom: 100px;
+    }
+.panel-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 150px;
+    justify-items: center;
+}
+#secimg {
+    margin-top: 20px;
+}
+.card2 {
+    order: 1;
+    margin: auto 40px;
+}
+
+.panel-3{
+    order: 2;
+    margin: auto 40px;
+  
+}
+.panel-4 {
+    order: 3;
+    margin: auto 40px;
+
+}
+.panel-5 {
+    order: 4;
+    margin: auto 40px;
+ 
+}
+.panel-6 {
+        display: flex;
+        padding: 20px 50px 100px;
+        justify-content: center;
+        max-width:100%;
+        background-color: hsl(218, 28%, 13%);
+}
+#p6img {
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    width: 600px;
+}
+.p62 {
+
+        padding-left: 30px;
+        width: 500px;
+}
+#h2l {
+    font-size: 35px;
+text-align: left;
+padding: 180px 40px 10px 40px;
+line-height: 1.5;
+}
+.main-text1 {
+    line-height: 1.5;
+}
+.main-text2 {
+    line-height: 1.5;
+}
+.test {
+    display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+ padding-right: 40px;
+ padding-bottom: 300px;
+
+
+}
+#bg-quote {
+    height: 40px;
+    width: auto;
+    position: relative;
+left: 50px;
+}
+.testp1 {
+
+    margin: 0px 10px 20px;
+}
+.test2 {
+    margin: 0px 10px 20px;
+
+}
+.test3 {
+    margin: 0px 10px 20px;
+
+}
+.panel-7 {
+    margin: 30px 200px;
+}
+.email-input {
+    width: 35%;
+}
+.get-started {
+    padding: 12px 35px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px 50px;
+}
+.footer1{
+order: 1;
+width: 300px;
+
+
+}
+.footer2 {
+    order: 2;
+    position: relative;
+    top: 425px;
+    height: 100px;
+}
+.foot1{
+    order: 3;
+    position: relative;
+    top: 400px;
+    margin: 0px;
+    height: 100px;
+}
+.foot2{
+    order: 4;
+    position: relative;
+    top: 400px;
+    margin: 0px;
+    height: 100px;
+}
+.main-text3 {
+    padding: 30px 60px 10px 60px;
+}
+}
